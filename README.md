@@ -12,6 +12,7 @@ Features
 
 Palindrome Detection for Lines: Determines if the sequence of lines in a passage reads the same forwards and backwards.
 Palindrome Detection for Words: Counts the number of words in the passage that are palindromes.
+Will ignore extra space characters entered by the user.
 
 Requirements
 
@@ -31,20 +32,23 @@ Build Instructions
 Ensure you have a C++ compiler installed.
 Clone the repository to your local machine:
 
+Using the command prompt:
+
 git clone https://github.com/JWar959/palindrome_sequence.git
 cd palindrome_sequence
 
 Compile the program using the following command:
 
 g++ -o palindromeChecker main.cpp
+
 Make sure queueAsArray.h, myStack.h, queueADT.h, and stackADT.h are included in your project directory.
 
 Usage
 
 To run the program, use the following command:
 
-./palindromeChecker
-When prompted, input your passage line by line. Type end on a new line to finish input.
+./palindromeChecker (or just 'palindromeChecker', depending on your technical specifications)
+When prompted, input your passage line by line. Type 'end' on a new line to finish input.
 
 Example:
 
