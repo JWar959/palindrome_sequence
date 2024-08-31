@@ -31,8 +31,8 @@ Build Instructions
 Ensure you have a C++ compiler installed.
 Clone the repository to your local machine:
 
-git clone https://github.com/JWar959/palindrome-checker.git
-cd palindrome-checker
+git clone https://github.com/JWar959/palindrome_sequence.git
+cd palindrome_sequence
 
 Compile the program using the following command:
 
