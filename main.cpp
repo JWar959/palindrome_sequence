@@ -84,7 +84,7 @@ int isPalindromeWord(const vector<string>& passage) {
         noSpaceLine = noSpaceLine + line + ' ';
     }
 
-    cout << "No space line " << noSpaceLine << endl;
+    cout << endl << "No space line: " << noSpaceLine << endl;
 
     bool isChar = false;
     string word;
@@ -96,7 +96,7 @@ int isPalindromeWord(const vector<string>& passage) {
         if (c == ' ') {
             if (!isChar) {
                 WordsStack.push(word);
-                cout << "Word is " << WordsStack.top() << endl;
+                //cout << "Word is: " << WordsStack.top() << endl;
                 word = "";
                 isChar = true;
             }
